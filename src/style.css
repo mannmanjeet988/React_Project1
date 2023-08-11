@@ -1,0 +1,131 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+/* h1{
+    margin-top:10px;
+} */
+
+.navbar{
+    background-color: tomato;
+    color: white ;
+    padding:5px;
+}
+
+.menu{
+    display: flex;
+    gap:60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.aboutMe{
+    color:blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    text-align: justify;
+
+}
+
+.aboutMe img{
+    width:300px;
+    border-radius: 40%;
+   
+}
+
+.skillsHeading, .projectHeading{
+    color:blueviolet;
+    margin-top:10px;
+}
+
+.skills-section{
+    display:flex;
+    width: 90vw;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+
+.skills button{
+    padding:5px 10px;
+    border-radius: 5px;
+    color:blueviolet;
+    border:1px solid black;
+    outline: none;
+    margin:10px;
+    background-color: white;
+}
+
+.footer{
+    margin-top:20px;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    background-color: grey;
+    padding:10px;
+}
+
+.footer a{
+    color:white;
+    font-weight :700 ;
+}
+
+h3{
+    text-align: center;
+    color: tomato;   
+}
+
+
+.projectInnerDiv{
+    /* border:1px solid black; */
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    color:blueviolet;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:10px;
+    min-height:140px;
+    /* width:40%; */
+}
+
+.project-section{
+display: flex;
+/* flex-wrap:wrap; */
+gap:20px;
+padding: 20px;
+}
+
+.projectInnerDiv a{
+    display:inline-block;
+    color:tomato;
+    text-align:center;
+    text-decoration:none ;
+    font-weight: 700;
+}
+
+.experience{
+    color:blueviolet;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.experience li{
+    margin-left:30px;
+}
